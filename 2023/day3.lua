@@ -97,5 +97,5 @@ local function part2()
 	return val
 end
 
--- print("Part 1 - " .. part1())
+print("Part 1 - " .. part1())
 print("Part 2 - " .. part2())
