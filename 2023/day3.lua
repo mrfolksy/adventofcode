@@ -6,7 +6,7 @@ local function is_number(s)
 end
 
 local function is_symbol(s)
-	return (not is_number(s) and s ~= "." and s ~= "X")
+	return (not is_number(s) and s ~= ".")
 end
 
 -- . . . . .
