@@ -80,7 +80,7 @@ end
 local function part2()
 	local val = 0
 	for _, v in pairs(gears) do
-		local nums = Set({})
+		local nums = Set({}) -- using a set to capture unique numbers
 		-- . . .
 		-- . * .
 		-- . . .
