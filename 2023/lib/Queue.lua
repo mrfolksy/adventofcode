@@ -4,7 +4,7 @@ Queue.__index = Queue
 -- B,A
 function Queue.new()
 	local self = setmetatable({
-		q = {},
+		t = {},
 		head = 0,
 		tail = -1,
 		length = 0,
@@ -15,7 +15,7 @@ end
 function Queue:enqueu(item)
 	local tail = self.tail + 1
 	self.tail = tail
-	self.q[tail] = item
+	self.t[tail] = item
 	self.length = self.length + 1
 end
 
@@ -25,8 +25,8 @@ function Queue:dequeue()
 	end
 
 	local head = self.head + 1
-	local item = self.q[self.head]
-	self.q[self.head] = nil
+	local item = self.t[self.head]
+	self.t[self.head] = nil
 	self.head = head
 	self.length = self.length - 1
 	return item
