@@ -53,9 +53,13 @@ local function part2(filename)
 		if not queue:is_empty() then
 			local c = queue:dequeue()
 			val = val + 1
+
+			-- if c is a winning card enqueue clones
 			if c.is_winning_card then
 				for i = (c.card_id + 1), (c.card_id + c.total_winning_numbers) do
 					local card_to_enqueue = cards[tostring(i)]
+
+					-- checks that we've not gone off the end of the table
 					if card_to_enqueue then
 						queue:enqueu(card_to_enqueue)
 					end
