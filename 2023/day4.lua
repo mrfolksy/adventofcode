@@ -45,7 +45,7 @@ local function part2(filename)
 	for l in io.lines(filename) do
 		local c = ScratchCard.new(l)
 		cards[tostring(c.card_id)] = c
-		queue:enqueu(c)
+		queue:enqueue(c)
 	end
 
 	-- start counting total number of cards
@@ -61,7 +61,7 @@ local function part2(filename)
 
 					-- checks that we've not gone off the end of the table
 					if card_to_enqueue then
-						queue:enqueu(card_to_enqueue)
+						queue:enqueue(card_to_enqueue)
 					end
 				end
 			end

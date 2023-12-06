@@ -1,0 +1,1215 @@
+Part 1 - 35
+seed s 79 e 93
+map src 98 - 100 dst 50
+part 98 - 93
+seed s 55 e 68
+map src 98 - 100 dst 50
+part 98 - 68
+seed s 79 e 98
+map src 98 - 100 dst 50
+part 98 - 98
+map src 50 - 98 dst 52
+part 79 - 98
+seed s 55 e 98
+map src 98 - 100 dst 50
+part 98 - 98
+map src 50 - 98 dst 52
+part 55 - 98
+seed s 50 e 45
+map src 15 - 52 dst 0
+part 50 - 45
+seed s 50 e 20
+map src 15 - 52 dst 0
+part 50 - 20
+seed s 79 e 98
+map src 15 - 52 dst 0
+part 79 - 52
+seed s 55 e 98
+map src 15 - 52 dst 0
+part 55 - 52
+seed s 52 e 98
+map src 15 - 52 dst 0
+part 52 - 52
+map src 52 - 54 dst 37
+part 52 - 54
+map src 0 - 15 dst 39
+part 52 - 15
+seed s 52 e 98
+map src 15 - 52 dst 0
+part 52 - 52
+map src 52 - 54 dst 37
+part 52 - 54
+map src 0 - 15 dst 39
+part 52 - 15
+seed s 15 e 98
+map src 15 - 52 dst 0
+part 15 - 52
+map src 52 - 54 dst 37
+part 52 - 54
+map src 0 - 15 dst 39
+part 15 - 15
+seed s 15 e 98
+map src 15 - 52 dst 0
+part 15 - 52
+map src 52 - 54 dst 37
+part 52 - 54
+map src 0 - 15 dst 39
+part 15 - 15
+seed s 35 e 30
+map src 53 - 61 dst 49
+part 53 - 30
+seed s 35 e 5
+map src 53 - 61 dst 49
+part 53 - 5
+seed s 64 e 37
+map src 53 - 61 dst 49
+part 64 - 37
+seed s 40 e 37
+map src 53 - 61 dst 49
+part 53 - 37
+seed s 91 e 54
+map src 53 - 61 dst 49
+part 91 - 54
+seed s 91 e 54
+map src 53 - 61 dst 49
+part 91 - 54
+seed s 15 e 98
+map src 53 - 61 dst 49
+part 53 - 61
+map src 11 - 53 dst 0
+part 15 - 53
+map src 0 - 7 dst 42
+part 15 - 7
+seed s 15 e 98
+map src 53 - 61 dst 49
+part 53 - 61
+map src 11 - 53 dst 0
+part 15 - 53
+map src 0 - 7 dst 42
+part 15 - 7
+seed s 35 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 35 - 53
+map src 0 - 7 dst 42
+part 35 - 7
+seed s 35 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 35 - 53
+map src 0 - 7 dst 42
+part 35 - 7
+seed s 40 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 40 - 53
+map src 0 - 7 dst 42
+part 40 - 7
+seed s 7 e 98
+map src 53 - 61 dst 49
+part 53 - 61
+map src 11 - 53 dst 0
+part 11 - 53
+map src 0 - 7 dst 42
+part 7 - 7
+map src 7 - 11 dst 57
+part 7 - 11
+seed s 7 e 98
+map src 53 - 61 dst 49
+part 53 - 61
+map src 11 - 53 dst 0
+part 11 - 53
+map src 0 - 7 dst 42
+part 7 - 7
+map src 7 - 11 dst 57
+part 7 - 11
+seed s 7 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 11 - 53
+map src 0 - 7 dst 42
+part 7 - 7
+map src 7 - 11 dst 57
+part 7 - 11
+seed s 7 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 11 - 53
+map src 0 - 7 dst 42
+part 7 - 7
+map src 7 - 11 dst 57
+part 7 - 11
+seed s 7 e 53
+map src 53 - 61 dst 49
+part 53 - 53
+map src 11 - 53 dst 0
+part 11 - 53
+map src 0 - 7 dst 42
+part 7 - 7
+map src 7 - 11 dst 57
+part 7 - 11
+seed s 49 e 26
+map src 18 - 25 dst 88
+part 49 - 25
+seed s 49 e 1
+map src 18 - 25 dst 88
+part 49 - 1
+seed s 60 e 33
+map src 18 - 25 dst 88
+part 60 - 25
+seed s 49 e 33
+map src 18 - 25 dst 88
+part 49 - 25
+seed s 87 e 50
+map src 18 - 25 dst 88
+part 87 - 25
+seed s 87 e 50
+map src 18 - 25 dst 88
+part 87 - 25
+seed s 57 e 49
+map src 18 - 25 dst 88
+part 57 - 25
+seed s 57 e 49
+map src 18 - 25 dst 88
+part 57 - 25
+seed s 77 e 49
+map src 18 - 25 dst 88
+part 77 - 25
+seed s 77 e 49
+map src 18 - 25 dst 88
+part 77 - 25
+seed s 82 e 49
+map src 18 - 25 dst 88
+part 82 - 25
+seed s 7 e 98
+map src 18 - 25 dst 88
+part 18 - 25
+map src 25 - 95 dst 18
+part 25 - 95
+seed s 7 e 98
+map src 18 - 25 dst 88
+part 18 - 25
+map src 25 - 95 dst 18
+part 25 - 95
+seed s 7 e 53
+map src 18 - 25 dst 88
+part 18 - 25
+map src 25 - 95 dst 18
+part 25 - 53
+seed s 7 e 53
+map src 18 - 25 dst 88
+part 18 - 25
+map src 25 - 95 dst 18
+part 25 - 53
+seed s 7 e 53
+map src 18 - 25 dst 88
+part 18 - 25
+map src 25 - 95 dst 18
+part 25 - 53
+seed s 25 e 26
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 26
+seed s 25 e 33
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 33
+seed s 25 e 33
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 33
+seed s 25 e 50
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 50
+seed s 25 e 50
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 50
+seed s 25 e 49
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 49
+seed s 25 e 49
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 49
+seed s 25 e 49
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 49
+seed s 25 e 49
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 49
+seed s 25 e 49
+map src 18 - 25 dst 88
+part 25 - 25
+map src 25 - 95 dst 18
+part 25 - 49
+seed s 119 e 95
+map src 77 - 100 dst 45
+part 119 - 95
+seed s 119 e 71
+map src 77 - 100 dst 45
+part 119 - 71
+seed s 130 e 95
+map src 77 - 100 dst 45
+part 130 - 95
+seed s 119 e 95
+map src 77 - 100 dst 45
+part 119 - 95
+seed s 157 e 95
+map src 77 - 100 dst 45
+part 157 - 95
+seed s 157 e 95
+map src 77 - 100 dst 45
+part 157 - 95
+seed s 127 e 95
+map src 77 - 100 dst 45
+part 127 - 95
+seed s 127 e 95
+map src 77 - 100 dst 45
+part 127 - 95
+seed s 147 e 95
+map src 77 - 100 dst 45
+part 147 - 95
+seed s 147 e 95
+map src 77 - 100 dst 45
+part 147 - 95
+seed s 152 e 95
+map src 77 - 100 dst 45
+part 152 - 95
+seed s 7 e 98
+map src 77 - 100 dst 45
+part 77 - 98
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 7 e 98
+map src 77 - 100 dst 45
+part 77 - 98
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 7 e 53
+map src 77 - 100 dst 45
+part 77 - 53
+seed s 7 e 53
+map src 77 - 100 dst 45
+part 77 - 53
+seed s 7 e 53
+map src 77 - 100 dst 45
+part 77 - 53
+seed s 25 e 26
+map src 77 - 100 dst 45
+part 77 - 26
+seed s 25 e 33
+map src 77 - 100 dst 45
+part 77 - 33
+seed s 25 e 33
+map src 77 - 100 dst 45
+part 77 - 33
+seed s 25 e 50
+map src 77 - 100 dst 45
+part 77 - 50
+seed s 25 e 50
+map src 77 - 100 dst 45
+part 77 - 50
+seed s 25 e 49
+map src 77 - 100 dst 45
+part 77 - 49
+seed s 25 e 49
+map src 77 - 100 dst 45
+part 77 - 49
+seed s 25 e 49
+map src 77 - 100 dst 45
+part 77 - 49
+seed s 25 e 49
+map src 77 - 100 dst 45
+part 77 - 49
+seed s 25 e 49
+map src 77 - 100 dst 45
+part 77 - 49
+seed s 7 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 7 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 7 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 25 e 77
+map src 77 - 100 dst 45
+part 77 - 77
+map src 45 - 64 dst 81
+part 45 - 64
+map src 64 - 77 dst 68
+part 64 - 77
+seed s 87 e 63
+map src 69 - 70 dst 0
+part 87 - 63
+seed s 87 e 39
+map src 69 - 70 dst 0
+part 87 - 39
+seed s 98 e 63
+map src 69 - 70 dst 0
+part 98 - 63
+seed s 87 e 63
+map src 69 - 70 dst 0
+part 87 - 63
+seed s 125 e 63
+map src 69 - 70 dst 0
+part 125 - 63
+seed s 125 e 63
+map src 69 - 70 dst 0
+part 125 - 63
+seed s 95 e 63
+map src 69 - 70 dst 0
+part 95 - 63
+seed s 95 e 63
+map src 69 - 70 dst 0
+part 95 - 63
+seed s 115 e 63
+map src 69 - 70 dst 0
+part 115 - 63
+seed s 115 e 63
+map src 69 - 70 dst 0
+part 115 - 63
+seed s 120 e 63
+map src 69 - 70 dst 0
+part 120 - 63
+seed s 7 e 98
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 7 - 69
+seed s 7 e 98
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 7 - 69
+seed s 45 e 21
+map src 69 - 70 dst 0
+part 69 - 21
+seed s 45 e 21
+map src 69 - 70 dst 0
+part 69 - 21
+seed s 45 e 21
+map src 69 - 70 dst 0
+part 69 - 21
+seed s 45 e -6
+map src 69 - 70 dst 0
+part 69 - -6
+seed s 45 e 1
+map src 69 - 70 dst 0
+part 69 - 1
+seed s 45 e 1
+map src 69 - 70 dst 0
+part 69 - 1
+seed s 45 e 18
+map src 69 - 70 dst 0
+part 69 - 18
+seed s 45 e 18
+map src 69 - 70 dst 0
+part 69 - 18
+seed s 45 e 17
+map src 69 - 70 dst 0
+part 69 - 17
+seed s 45 e 17
+map src 69 - 70 dst 0
+part 69 - 17
+seed s 45 e 17
+map src 69 - 70 dst 0
+part 69 - 17
+seed s 45 e 17
+map src 69 - 70 dst 0
+part 69 - 17
+seed s 45 e 17
+map src 69 - 70 dst 0
+part 69 - 17
+seed s 7 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 7 - 69
+seed s 7 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 7 - 69
+seed s 7 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 7 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 25 e 77
+map src 69 - 70 dst 0
+part 69 - 70
+map src 0 - 69 dst 1
+part 25 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 45 e 69
+map src 69 - 70 dst 0
+part 69 - 69
+map src 0 - 69 dst 1
+part 45 - 69
+seed s 18 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 18 e -30
+map src 56 - 93 dst 60
+part 56 - -30
+seed s 29 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 18 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 56 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 56 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 26 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 26 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 46 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 46 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 51 e -6
+map src 56 - 93 dst 60
+part 56 - -6
+seed s 7 e 98
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 97
+seed s 7 e 98
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 97
+seed s 0 e -48
+map src 56 - 93 dst 60
+part 56 - -48
+seed s 0 e -48
+map src 56 - 93 dst 60
+part 56 - -48
+seed s 0 e -48
+map src 56 - 93 dst 60
+part 56 - -48
+seed s 0 e -75
+map src 56 - 93 dst 60
+part 56 - -75
+seed s 0 e -68
+map src 56 - 93 dst 60
+part 56 - -68
+seed s 0 e -68
+map src 56 - 93 dst 60
+part 56 - -68
+seed s 0 e -51
+map src 56 - 93 dst 60
+part 56 - -51
+seed s 0 e -51
+map src 56 - 93 dst 60
+part 56 - -51
+seed s 0 e -52
+map src 56 - 93 dst 60
+part 56 - -52
+seed s 0 e -52
+map src 56 - 93 dst 60
+part 56 - -52
+seed s 0 e -52
+map src 56 - 93 dst 60
+part 56 - -52
+seed s 0 e -52
+map src 56 - 93 dst 60
+part 56 - -52
+seed s 0 e -52
+map src 56 - 93 dst 60
+part 56 - -52
+seed s 7 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 7 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 7 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 25 e 77
+map src 56 - 93 dst 60
+part 56 - 77
+map src 93 - 97 dst 56
+part 93 - 77
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 45 e 69
+map src 56 - 93 dst 60
+part 56 - 69
+map src 93 - 97 dst 56
+part 93 - 69
+seed s 18 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 18 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 29 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 18 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 26 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 26 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 46 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 46 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 51 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 0 e 56
+map src 56 - 93 dst 60
+part 56 - 56
+map src 93 - 97 dst 56
+part 93 - 56
+seed s 7 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 7 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 7 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 25 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 45 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 18 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 18 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 29 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 18 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 26 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 26 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 46 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 46 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 51 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+seed s 0 e 93
+map src 56 - 93 dst 60
+part 56 - 93
+map src 93 - 97 dst 56
+part 93 - 93
+Part 2 - 0

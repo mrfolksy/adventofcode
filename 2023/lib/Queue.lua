@@ -1,7 +1,6 @@
 local Queue = {}
 Queue.__index = Queue
 
--- B,A
 function Queue.new()
 	local self = setmetatable({
 		t = {},
@@ -12,7 +11,7 @@ function Queue.new()
 	return self
 end
 
-function Queue:enqueu(item)
+function Queue:enqueue(item)
 	local tail = self.tail + 1
 	self.tail = tail
 	self.t[tail] = item
