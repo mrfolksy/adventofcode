@@ -23,40 +23,42 @@ def meets_conditions(lst: list[int], condition):
     return all(condition(item) for item in lst)
 
 
-def is_safe_with_dampener(report: list[int]):
+def is_safe_report(report: list[int], apply_dampener: bool = False):
+    deltas = calc_deltas(report)
+    return (
+        (
+            meets_conditions(deltas, lambda x: x > 0)
+            or meets_conditions(deltas, lambda x: x < 0)
+        )
+        and meets_conditions(deltas, lambda x: 1 <= abs(x) <= 3)
+        or (apply_dampener and is_safe_with_dampener_report(report))
+    )
+
+
+def is_safe_with_dampener_report(report: list[int]):
     for i in range(len(report)):
         if is_safe_report(report[:i] + report[i + 1 :]):
             return True
     return False
 
 
-def is_safe_report(report: list[int]):
-    deltas = calc_deltas(report)
-    return (
-        meets_conditions(deltas, lambda x: x > 0)
-        or meets_conditions(deltas, lambda x: x < 0)
-    ) and meets_conditions(deltas, lambda x: 1 <= abs(x) <= 3)
+def check_reports(apply_dampener: bool = False):
+    total_safe = 0
+    for line in data:
+        report = parse_report(line)
+        total_safe += 1 if is_safe_report(report, apply_dampener) else 0
+
+    return total_safe
 
 
 def part1():
-    total_safe = 0
-    for line in data:
-        report = parse_report(line)
-        total_safe += 1 if is_safe_report(report) else 0
-
-    print(total_safe)
+    result = check_reports(apply_dampener=False)
+    print(result)
 
 
 def part2():
-    total_safe = 0
-    for line in data:
-        report = parse_report(line)
-        if is_safe_report(report):
-            total_safe += 1
-        elif is_safe_with_dampener(report):
-            total_safe += 1
-
-    print(total_safe)
+    result = check_reports(apply_dampener=True)
+    print(result)
 
 
 part1()
