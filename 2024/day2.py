@@ -1,6 +1,3 @@
-from functools import reduce
-
-
 with open("./data/day2.txt") as f:
     data = f.readlines()
 
