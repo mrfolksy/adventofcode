@@ -22,11 +22,13 @@ def calc_deltas(report: list[int]):
 def meets_conditions(lst: list[int], condition):
     return all(condition(item) for item in lst)
 
+
 def is_safe_with_dampener(report: list[int]):
     for i in range(len(report)):
-        if is_safe_report(report[:i] + report[i+1:]):
+        if is_safe_report(report[:i] + report[i + 1 :]):
             return True
     return False
+
 
 def is_safe_report(report: list[int]):
     deltas = calc_deltas(report)
@@ -44,6 +46,7 @@ def part1():
 
     print(total_safe)
 
+
 def part2():
     total_safe = 0
     for line in data:
@@ -52,8 +55,9 @@ def part2():
             total_safe += 1
         elif is_safe_with_dampener(report):
             total_safe += 1
-        
+
     print(total_safe)
+
 
 part1()
 part2()
