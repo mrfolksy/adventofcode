@@ -1,4 +1,3 @@
-from gettext import find
 import re
 
 # Example string
@@ -31,7 +30,7 @@ def find_all_enabled_regions(s: str):
         Recursively find all enabled regions in the string
         """
         s = remove_disabled_region(s)
-        
+
         # no more enabled regions
         if s == "":
             return acc
