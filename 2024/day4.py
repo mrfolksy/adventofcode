@@ -1,32 +1,12 @@
 with open("./data/day4.txt") as f:
     input = f.read().split("\n")
 
-patterns = """
-S,.,.,S,.,.,S
-.,A,.,A,.,A,.
-.,.,M,M,M,.,.
-S,A,M,X,M,A,S
-.,.,M,M,M,.,.
-.,A,.,A,.,A,.
-S,.,.,S,.,.,S
-"""
-
 
 def get_letter_matrix(s: str):
     matrix = []
     for l in s:
         matrix.append([c for c in l])
     return matrix
-
-
-"""
-Assume that we are operating on a matrix with 
-- i: row index
-- j: col index
-
-XMAS:
-- [i][j] = X, [i+1][j] = M, [i+2][j] = A, [i+3][j] = S
-"""
 
 
 def match_horizontal(i, j, matrix, step=1):
@@ -120,9 +100,19 @@ def match_diagonal(
 
 
 def part1(matrix):
+    """
+    S,.,.,S,.,.,S
+    .,A,.,A,.,A,.
+    .,.,M,M,M,.,.
+    S,A,M,X,M,A,S
+    .,.,M,M,M,.,.
+    .,A,.,A,.,A,.
+    S,.,.,S,.,.,S
+    """
+
     word_count = 0
-    for i in range(0, 144):
-        for j in range(0, 144):
+    for i in range(0, 140):
+        for j in range(0, 140):
             # horizontal match (3,2)
             word_count += 1 if match_horizontal(i, j, matrix, 1) else 0
             word_count += 1 if match_horizontal(i, j, matrix, -1) else 0
@@ -137,6 +127,18 @@ def part1(matrix):
             word_count += 1 if match_diagonal(i, j, matrix, -1, 1) else 0
 
     return word_count
+
+
+def part2(matrix):
+    """
+    M,.,S  M,.,M  S,.,M  S,.,S
+    .,A,.  .,A,.  .,A,.  .,A,.
+    M,.,S  S,.,S  S,.,M  M,.,M
+    """
+    word_count = 0
+    for i in range(1, 139):
+        for j in range(1, 139):
+            pass
 
 
 print(part1(input))
