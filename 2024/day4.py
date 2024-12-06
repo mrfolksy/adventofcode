@@ -113,13 +113,13 @@ def part1(matrix):
     word_count = 0
     for i in range(0, 140):
         for j in range(0, 140):
-            # horizontal match (3,2)
+            # horizontal match
             word_count += 1 if match_horizontal(i, j, matrix, 1) else 0
             word_count += 1 if match_horizontal(i, j, matrix, -1) else 0
-            # # vertical match (1,2)
+            # # vertical match
             word_count += 1 if match_vertical(i, j, matrix, 1) else 0
             word_count += 1 if match_vertical(i, j, matrix, -1) else 0
-            # # diagonal match down (1)
+            # # diagonal match down
             word_count += 1 if match_diagonal(i, j, matrix, 1, -1) else 0
             word_count += 1 if match_diagonal(i, j, matrix, -1, -1) else 0
             # # diagonal match up
