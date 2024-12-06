@@ -4,7 +4,7 @@ with open("./data/day4.txt") as f:
 
 def get_letter_matrix(s: str):
     matrix = []
-    for l in s:
+    for l in s:  # noqa: E741
         matrix.append([c for c in l])
     return matrix
 
@@ -33,7 +33,7 @@ def match_horizontal(i, j, matrix, step=1):
             and matrix[i][j + 2 * step] == "A"
             and matrix[i][j + 3 * step] == "S"
         )
-    except:
+    except:  # noqa: E722
         return False
 
 
