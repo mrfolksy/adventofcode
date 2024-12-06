@@ -1,4 +1,4 @@
-with open("./data/day4.test.txt") as f:
+with open("./data/day4.txt") as f:
     input = f.read().split("\n")
 
 
@@ -138,7 +138,7 @@ def flattern_box(matrix, i, j):
     Flatterned:
     MSAMS  MMASS  SMASM  SSAMM
     """
-    return f"{matrix[i-1][j-1]}{matrix[i-1][j+1]}{matrix[i][j]}{matrix[i+1][j-1]}{matrix[i-1][j+1]}"
+    return f"{matrix[i-1][j-1]}{matrix[i-1][j+1]}{matrix[i][j]}{matrix[i+1][j-1]}{matrix[i+1][j+1]}"
 
 
 def part2(matrix):
@@ -148,13 +148,12 @@ def part2(matrix):
     M,.,S  S,.,S  S,.,M  M,.,M
     """
     word_count = 0
-    for i in range(1, 9):
-        for j in range(1, 9):
+    for i in range(1, 139):
+        for j in range(1, 139):
             if matrix[i][j] == "A":
-                print(f"{i},{j}")
                 flat_str = flattern_box(matrix, i, j)
                 if (
-                    flat_str == "MSAMA"
+                    flat_str == "MSAMS"
                     or flat_str == "MMASS"
                     or flat_str == "SMASM"
                     or flat_str == "SSAMM"
