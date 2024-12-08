@@ -1,5 +1,4 @@
 from typing import Literal
-from copy import deepcopy
 
 """
     N
@@ -40,11 +39,30 @@ def is_inmap(map, loc: tuple) -> bool:
     return loc[0] >= 0 and loc[0] < len(map) and loc[1] >= 0 and loc[1] < len(map[0])
 
 
-def visit(map, loc: tuple) -> bool:
-    if map[loc[0]][loc[1]] == "X":
-        return 0
-    map[loc[0]][loc[1]] = "X"
-    return 1
+def visit(map, loc: tuple, dir: Direction, tag=None) -> int:
+    curr_value = map[loc[0]][loc[1]]
+    ret = 1 if curr_value in (".", "^") else 0
+
+    if curr_value == "+":
+        return ret
+
+    if dir == "N" or dir == "S":
+        if curr_value == "|":
+            map[loc[0]][loc[1]] = "|"
+        if curr_value == "-":
+            map[loc[0]][loc[1]] = "+"
+        else:
+            map[loc[0]][loc[1]] = "|"
+
+    if dir == "E" or dir == "W":
+        if curr_value == "-":
+            map[loc[0]][loc[1]] = "-"
+        if curr_value == "|":
+            map[loc[0]][loc[1]] = "+"
+        else:
+            map[loc[0]][loc[1]] = "-"
+
+    return ret
 
 
 def step(loc, dir: Direction):
@@ -78,7 +96,7 @@ def lookahead(map, loc: tuple, dir: Direction):
 
 
 def has_looped(start_loc, loc: tuple, dir: Direction):
-    if start_loc == loc and dir == INIT_DIR:
+    if start_loc == loc:
         return True
 
 
@@ -86,38 +104,36 @@ def sum_visited_locations(map):
     count = 0
     for row in map:
         for cell in row:
-            if cell == "X":
+            if cell in ("X", "|", "-", "+"):
                 count += 1
     return count
 
 
-def patrol(map, guard_loc: tuple, start_dir: Direction):
+def patrol(map, guard_loc: tuple, start_dir: Direction) -> bool:
+    """
+    Runs a guard patrol, returns True if the guard ends up in a loop, returns False
+    if the guard wonders out of the map
+    """
     loc = guard_loc
     facing = start_dir
-    seen_new_block = False
+    visited = set()
 
     while True:
-        ahead = lookahead(map, loc, facing)
-
-        if ahead == "O" and seen_new_block:
+        if (loc, facing) in visited:
             return True
 
+        ahead = lookahead(map, loc, facing)
         if ahead == "#" or ahead == "O":
             facing = turn(facing)
         else:
             next_loc = step(loc, facing)
             if is_inmap(map, next_loc):
-                visit(map, loc)
+                visit(map, loc, facing)
+                visited.add((loc, facing))
                 loc = next_loc
             else:
-                visit(map, loc)
+                visit(map, loc, facing)
                 break
-
-        if has_looped(guard_loc, loc, facing):
-            return True
-
-        if ahead == "O" and not seen_new_block:
-            seen_new_block = True
 
     return False
 
@@ -129,31 +145,21 @@ def part1(map):
 
 def part2(map):
     count = 0
-    patrol_count = 0
     guard_loc = start_loc(map)
 
     for i in range(0, len(map)):
         for j in range(0, len(map[0])):
             if map[i][j] == ".":
                 map[i][j] = "O"
-
-                if patrol_count == 427:
-                    print_map(map)
-                    print(f"{i} {j}")
-
                 looped = patrol(map, guard_loc, INIT_DIR)
                 count += 1 if looped else 0
                 map = initialise_map()
-
-                patrol_count += 1
-                print(patrol_count)
 
     return count
 
 
 map = initialise_map()
 print(part1(map))
-
 
 map = initialise_map()
 print(part2(map))
