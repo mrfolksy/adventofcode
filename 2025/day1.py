@@ -1,10 +1,6 @@
 from operator import add, sub
 
-filename = "day1.txt"
-
-
-data = []
-with open(f"./data/{filename}") as f:
+with open("./data/day1.txt") as f:
     data = f.readlines()
 
 
