@@ -14,6 +14,20 @@ def part1(bank: str):
     return -heapq.heappop(max_heap)
 
 
+def part2(bank: str):
+    stack = []
+    to_remove = len(bank) - 13
+
+    for i in bank.strip():
+        val = int(i)
+        while stack and to_remove > 0 and val > stack[-1]:
+            stack.pop()
+            to_remove -= 1
+        stack.append(val)
+
+    return int("".join([str(s) for s in stack[:12]]))
+
+
 def run(func):
     res = 0
     for bank in data:
@@ -22,4 +36,5 @@ def run(func):
     return res
 
 
-print(f"{run(part1)}")
+print(f"Part 1: {run(part1)}")
+print(f"Part 2: {run(part2)}")
